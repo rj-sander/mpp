@@ -1,40 +1,15 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #282c34;
 }
 
 body {
@@ -43,37 +18,33 @@ body {
   color: #333;
 }
 
-#content .map path {
-  fill: #ddd;
-  stroke: #aaa;
+#Base_Map {
+  min-height: 70vh;
+  padding : 15vh;
 }
 
-.cls-1 {
+.base {
   fill: #f3be99;
   fill-rule: evenodd;
   stroke: #7e7f80;
   stroke-miterlimit: 10;
   stroke-width: .51px;
+  animation-name: transition;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
-
 .response {
-  fill: #a0dde3;
-  fill-rule: evenodd;
-  stroke: #7e7f80;
-  stroke-miterlimit: 10;
-  stroke-width: .51px;
+    fill: #a0dde3;
 }
 
-@keyframes response {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.covert {
+    fill: #a29ed1;
 }
 
-svg [data-value="clicked"] {
-  animation: response 1s ease-in infinite alternate;
- 
+.overt {
+  fill: #b8b8f0;
+}
+
+.policy {
+  fill: #ef93bf;
 }

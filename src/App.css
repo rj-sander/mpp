@@ -47,3 +47,33 @@ body {
   fill: #ddd;
   stroke: #aaa;
 }
+
+.cls-1 {
+  fill: #f3be99;
+  fill-rule: evenodd;
+  stroke: #7e7f80;
+  stroke-miterlimit: 10;
+  stroke-width: .51px;
+}
+
+.response {
+  fill: #a0dde3;
+  fill-rule: evenodd;
+  stroke: #7e7f80;
+  stroke-miterlimit: 10;
+  stroke-width: .51px;
+}
+
+@keyframes response {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+svg [data-value="clicked"] {
+  animation: response 1s ease-in infinite alternate;
+ 
+}

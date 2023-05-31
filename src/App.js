@@ -1,29 +1,9 @@
 import React, {useState} from 'react';
-import * as d3 from 'd3';
 import './App.css';
-
+import {ReactComponent as Testmap} from './basemap.js';
+var clickIndex = 0;
 
 function App() {
-  const [geojson, setGeojson] = useState(null);
-  React.useEffect(() => {
-    if (geojson) {
-      return
-    }
-    fetch('/test.geojson')
-        .then((response) => response.json())
-        .then((geojson) => {
-          //  console.log("my_data: ", geojson);
-           setGeojson(geojson)
-
-        })
-
-}, [geojson, setGeojson])
-
-if (!geojson) {
-  return null
-}
-
-  // console.log(geojson)
   return (
     <div className="App">
       <header className="App-header">
@@ -31,42 +11,31 @@ if (!geojson) {
           This is where my visualisation will go.
         </p>
       </header>
-      <Map geojson={geojson}/>
+      <Testmap />
+<button onClick={Increase}>isbutoon</button>
+<button onClick={Decrease}>alsobutton</button>
     </div>
   );
 }
 
-function Map(props) { 
-  var map = React.useRef(null)
-  console.log(map)
-const geojson = props.geojson
-// console.log(geojson)
-let projection = d3.geoMercator()
-  // .scale(400)
-  // .translate([960, 500]);
+function Increase() {
+  if (clickIndex<4) {
+    clickIndex++;
+  }
+  else {
+    clickIndex = 0
+  }
+  console.log(clickIndex)
+}
 
-let geoGenerator = d3.geoPath()
-  .projection(projection);
-
-React.useEffect(() => {
-  let u = d3.select(map.current)
-    .selectAll('g')
-    .data(geojson.features);
-    // console.log(u)
-
-
-  u.enter()
-    .append('path')
-    .attr('d', geoGenerator);
-}, [map, geojson]);
-
-  return (
-    <div>
-    <svg ref={map} id="content" width="900px" height="500px">
-      <g className="map"></g>
-    </svg>
-  </div>
-  );
+function Decrease() {
+  if (clickIndex>0) {
+    clickIndex--;
+  }
+  else {
+    clickIndex = 4
+  }
+  console.log(clickIndex)
 }
 
 export default App;

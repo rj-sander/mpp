@@ -19,8 +19,12 @@ body {
 }
 
 #Base_Map {
-  min-height: 70vh;
+  min-height: 50vh;
   padding : 15vh;
+}
+
+svg {
+  filter: drop-shadow(3px 5px 2px #be9578);
 }
 
 .base {
@@ -29,9 +33,7 @@ body {
   stroke: #7e7f80;
   stroke-miterlimit: 10;
   stroke-width: .51px;
-  animation-name: transition;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
+  transition: fill 1s linear;
 }
 .response {
     fill: #a0dde3;
@@ -48,3 +50,24 @@ body {
 .policy {
   fill: #ef93bf;
 }
+.faded {
+  fill: #ffe7d6;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  margin-bottom: 5vh;
+  background-color: #ffe7d6;
+  min-height: 15vh;
+  max-width: 70vw;
+  height: 5vh;
+}
+
+.mapText {
+  font-size: calc(10px + 1vmin);
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+

@@ -19,7 +19,7 @@ body {
 }
 
 #Base_Map {
-  min-height: 50vh;
+height: 70vh;
   padding : 15vh;
 }
 
@@ -34,6 +34,7 @@ svg {
   stroke-miterlimit: 10;
   stroke-width: .51px;
   transition: fill 1s linear;
+  transition: transform 1s;
 }
 .response {
     fill: #a0dde3;
@@ -54,14 +55,21 @@ svg {
   fill: #ffe7d6;
 }
 
+.focus {
+  fill: #ff9549;
+  transform: scale(1.1);
+  transform-origin: center;
+}
+
 .container {
   position: relative;
   margin: auto;
-  margin-bottom: 5vh;
-  background-color: #ffe7d6;
-  min-height: 15vh;
   max-width: 70vw;
-  height: 5vh;
+}
+
+.subheader {
+  height: 100vh;
+  min-height: 15vh;
 }
 
 .mapText {

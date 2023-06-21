@@ -20,7 +20,7 @@ export const Chart = () => {
       });
     }, []);
     
-    return (<div>
+    return (<div className="container">
         <h2>PIP Recipients by London Local Authority</h2>
         <div id="chart" />
         </div>);

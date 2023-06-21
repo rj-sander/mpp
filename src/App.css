@@ -1,13 +1,9 @@
 .App {
   text-align: center;
+  background-color:#ffe7d6;
 }
 .App-header {
-  background-color: white;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
   font-size: calc(10px + 2vmin);
   color: #282c34;
 }
@@ -21,6 +17,7 @@ body {
 #Base_Map {
 height: 70vh;
   padding : 15vh;
+  width: 70vw;
 }
 
 svg {
@@ -29,12 +26,12 @@ svg {
 
 .base {
   fill: #f3be99;
-  fill-rule: evenodd;
   stroke: #7e7f80;
   stroke-miterlimit: 10;
   stroke-width: .51px;
-  transition: fill 1s linear;
-  transition: transform 1s;
+  transition-property: fill, transform;
+  transition-duration: 2s;
+  transition-timing-function: linear;
 }
 .response {
     fill: #a0dde3;
@@ -57,25 +54,29 @@ svg {
 
 .focus {
   fill: #ff9549;
-  transform: scale(1.1);
+  transform: scale(1.2);
   transform-origin: center;
 }
 
 .container {
-  position: relative;
   margin: auto;
   max-width: 70vw;
-}
-
-.subheader {
   height: 100vh;
-  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .mapText {
+  background-color: #f3be99;
+  position: relative;
+  padding: calc(10px + 1vmin);
+}
+
+p {
   font-size: calc(10px + 1vmin);
-  position: absolute;
   top: 50%;
   width: 100%;
 }
-

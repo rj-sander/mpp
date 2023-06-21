@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="container App-header">
         <h1>
 Which Borough is spying on your Instagram?
         </h1>
@@ -20,8 +20,6 @@ Which Borough is spying on your Instagram?
       </header>
       <Definitions />
       <Chart />
-      <div className='container'>
-      </div>
       <Map />
     </div>
   );

@@ -1,27 +1,63 @@
 .App {
-  text-align: center;
-  background-color:#ffe7d6;
+  width: 50vw;
+  margin: auto;
 }
 .App-header {
 
   font-size: calc(10px + 2vmin);
   color: #282c34;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  height: 100vh;
 }
 
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 14px;
   color: #333;
+  background-color:#ffe7d6;
+
+}
+
+#Illustration {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  rotate: 7deg;
+  z-index: 0;
+  height: 100vh;
+}
+
+#Figure {
+animation-name: fadeOut;
+animation-duration: 2s;
+animation-delay: 1s;
+animation-fill-mode: forwards;
+}
+
+#Chair {
+  animation-name: fadeOut;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  }
+
+#Outline {
+  animation-name: fadeOut;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+    }
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 #Base_Map {
-height: 70vh;
-  padding : 15vh;
-  width: 70vw;
-}
-
-svg {
   filter: drop-shadow(3px 5px 2px #be9578);
+
 }
 
 .base {
@@ -31,6 +67,7 @@ svg {
   stroke-width: .51px;
   transition-property: fill, transform;
   transition-duration: 2s;
+  animation-fill-mode: both;
   transition-timing-function: linear;
 }
 .response {
@@ -56,27 +93,29 @@ svg {
   fill: #ff9549;
   transform: scale(1.2);
   transform-origin: center;
+  z-index: 2;
 }
 
-.container {
+.MapContainer {
   margin: auto;
-  max-width: 70vw;
+  max-width: 50vw;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-
 }
 
 .mapText {
   background-color: #f3be99;
   position: relative;
-  padding: calc(10px + 1vmin);
+  z-index: 2;
+  text-align: center;
 }
 
 p {
   font-size: calc(10px + 1vmin);
-  top: 50%;
-  width: 100%;
+  padding: 25px;
 }
+
+.scrolly {
+  position: relative;
+}
+

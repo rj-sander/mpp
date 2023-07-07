@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Phone" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 397 768">
+  <defs>
+    <symbol id="Dummy_phone" data-name="Dummy phone" viewBox="0 0 361.81 747.56">
+      <g>
+        <rect x="2" y="2" width="357.81" height="743.56" rx="37.22" ry="37.22" style="fill: #e096b7; stroke: #9f98cf; stroke-miterlimit: 10; stroke-width: 4px;"/>
+        <path d="m28.94,29.14h304.76c3.97,0,7.2,3.23,7.2,7.2v402.8H20.9V37.18c0-4.44,3.6-8.04,8.04-8.04Z" style="fill: #e2e0e1;"/>
+        <g>
+          <circle cx="68.96" cy="133.26" r="32.86" style="fill: #9cd0e0;"/>
+          <g>
+            <circle cx="54.18" cy="354.18" r="25.29" style="fill: #d5cce9;"/>
+            <circle cx="118.4" cy="354.18" r="25.29" style="fill: #a59cd9;"/>
+            <circle cx="180.49" cy="354.18" r="25.29" style="fill: #f4d2e5;"/>
+            <circle cx="245.48" cy="354.18" r="25.29" style="fill: #9cd0e0;"/>
+            <circle cx="307.63" cy="354.18" r="25.29" style="fill: #af516b;"/>
+          </g>
+          <g>
+            <rect x="20.9" y="439.14" width="107.88" height="108.57" style="fill: #dea8c2;"/>
+            <rect x="233.03" y="547.71" width="107.88" height="108.57" style="fill: #d5cce9;"/>
+            <rect x="127.53" y="547.71" width="107.88" height="108.57" style="fill: #f4d2e5;"/>
+            <rect x="20.9" y="547.71" width="107.88" height="108.57" style="fill: #dccfd3;"/>
+            <rect x="233.03" y="439.14" width="107.88" height="108.57" style="fill: #f4d2e5;"/>
+            <rect x="127.53" y="439.14" width="107.88" height="108.57" style="fill: #dccfd3;"/>
+          </g>
+          <text transform="translate(36.1 195.07)" style="fill: #989898; font-family: AcuminVariableConcept, &apos;Acumin Variable Concept&apos;; font-size: 12px; font-variation-settings: &apos;wght&apos; 194, &apos;wdth&apos; 100, &apos;slnt&apos; 0;"><tspan x="0" y="0" style="letter-spacing: 0em;">B</tspan><tspan x="7.61" y="0" style="letter-spacing: 0em;">e</tspan><tspan x="13.7" y="0">x </tspan><tspan x="21.92" y="0" style="letter-spacing: 0em;">S</tspan><tspan x="29" y="0">ander</tspan><tspan x="0" y="14.4">I am a dum</tspan><tspan x="57.5" y="14.4" style="letter-spacing: 0em;">m</tspan><tspan x="67.4" y="14.4">y a</tspan><tspan x="82.08" y="14.4" style="letter-spacing: 0em;">cc</tspan><tspan x="93.81" y="14.4">ou</tspan><tspan x="106.62" y="14.4" style="letter-spacing: 0em;">n</tspan><tspan x="113.16" y="14.4">t </tspan><tspan x="119.75" y="14.4" style="letter-spacing: 0em;">t</tspan><tspan x="123.14" y="14.4">o </tspan><tspan x="132.61" y="14.4" style="letter-spacing: 0em;">m</tspan><tspan x="142.49" y="14.4">a</tspan><tspan x="148.58" y="14.4" style="letter-spacing: 0em;">k</tspan><tspan x="154.13" y="14.4">e an ani</tspan><tspan x="194.3" y="14.4" style="letter-spacing: 0em;">m</tspan><tspan x="204.18" y="14.4" style="letter-spacing: 0em;">a</tspan><tspan x="210.21" y="14.4">tion</tspan></text>
+          <text transform="translate(36.1 82.21)" style="fill: #989898; font-family: AcuminConcept-ExtraCondBold, &apos;Acumin Variable Concept&apos;; font-size: 28px; font-variation-settings: &apos;wght&apos; 700, &apos;wdth&apos; 50, &apos;slnt&apos; 0; font-weight: 700;"><tspan x="0" y="0" style="letter-spacing: 0em;">u</tspan><tspan x="10.81" y="0" style="letter-spacing: 0em;">s</tspan><tspan x="19.99" y="0">er</tspan><tspan x="37.18" y="0" style="letter-spacing: 0em;">n</tspan><tspan x="47.94" y="0">ame</tspan></text>
+          <g>
+            <rect x="297.9" y="61.17" width="20" height="20" rx="2.72" ry="2.72" style="fill: none; opacity: .89; stroke: #989898; stroke-miterlimit: 10; stroke-width: 2.4px;"/>
+            <line x1="307.65" y1="65.21" x2="307.59" y2="77.21" style="fill: none; opacity: .89; stroke: #989898; stroke-miterlimit: 10; stroke-width: 2.4px;"/>
+            <line x1="301.62" y1="71.24" x2="313.62" y2="71.18" style="fill: none; opacity: .89; stroke: #989898; stroke-miterlimit: 10; stroke-width: 2.4px;"/>
+          </g>
+          <g>
+            <path d="m20.9,646.29h320v56.47c0,4.63-3.76,8.38-8.38,8.38H29.17c-4.56,0-8.27-3.7-8.27-8.27v-56.58h0Z" style="fill: #e2e0e1;"/>
+            <circle cx="307.16" cy="681.26" r="10" style="fill: none; opacity: .89; stroke: #989898; stroke-miterlimit: 10; stroke-width: 2.4px;"/>
+            <path d="m44.29,690.46v-11.01l9.26-8.99,10.74,10v10h-7.78s1.5-6.99,0-8.49c-1.01-1.01-4.84-1.12-5.74,0-1.33,1.65,0,8.49,0,8.49h-6.48Z" style="fill: none; opacity: .89; stroke: #989898; stroke-miterlimit: 10; stroke-width: 2.4px;"/>
+            <g>
+              <rect x="234.39" y="671.26" width="20" height="20" rx="2.72" ry="2.72" style="fill: none; opacity: .89; stroke: #989898; stroke-miterlimit: 10; stroke-width: 2.4px;"/>
+              <path d="m249.89,681.33c.34-2.75-9.49-8.32-9.61-5.55-.13,2.93-.28,8.33,0,11.09.32,3.19,9.27-2.79,9.61-5.55Z" style="fill: none; opacity: .89; stroke: #989898; stroke-miterlimit: 10; stroke-width: 2.4px;"/>
+            </g>
+            <line x1="123.02" y1="703.26" x2="238.39" y2="703.26" style="fill: #989898; opacity: .89; stroke: #989898; stroke-miterlimit: 10; stroke-width: 2.4px;"/>
+            <g>
+              <rect x="170.85" y="671.26" width="20" height="20" rx="2.72" ry="2.72" style="fill: none; opacity: .89; stroke: #989898; stroke-miterlimit: 10; stroke-width: 2.4px;"/>
+              <rect x="179.73" y="675.56" width="2.4" height="12" rx="1.2" ry="1.2" style="fill: #989898;"/>
+              <path d="m186.93,681.56h0c0,.66-.54,1.2-1.2,1.2h-9.6c-.66,0-1.2-.54-1.2-1.2h0c0-.66.54-1.2,1.2-1.2h9.6c.66,0,1.2.54,1.2,1.2Z" style="fill: #989898;"/>
+            </g>
+            <g>
+              <g style="fill: none; opacity: .89;">
+                <ellipse cx="115.66" cy="679.35" rx="8.38" ry="8.09" style="fill: none; stroke: #989898; stroke-miterlimit: 10; stroke-width: 2.4px;"/>
+                <path d="m121.42,685.21" style="fill: none; stroke: #989898; stroke-miterlimit: 10; stroke-width: 2.4px;"/>
+              </g>
+              <path d="m126.16,690.3h0c-.47.47-1.23.47-1.7,0l-2.55-2.55c-.47-.47-.47-1.23,0-1.7h0c.47-.47,1.23-.47,1.7,0l2.55,2.55c.47.47.47,1.23,0,1.7Z" style="fill: #989898;"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </symbol>
+  </defs>
+  <use width="361.81" height="747.56" transform="translate(17.6 10.22)" xlink:href="#Dummy_phone"/>
+</svg>

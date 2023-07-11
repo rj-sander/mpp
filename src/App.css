@@ -15,7 +15,7 @@
   width: 70vw;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 80vh;
   justify-content: center;
   margin: auto;
 }
@@ -48,6 +48,12 @@ p {
 
 #barchart {
   flex-grow: 1;
+}
+
+#Phone {
+  max-height: 500px;
+  rotate: -10deg;
+  padding: 200px;
 }
 
 #Wheelchair {

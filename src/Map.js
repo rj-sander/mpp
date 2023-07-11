@@ -60,12 +60,15 @@ function Map() {
               </div>
           </Step>
           <Step data={8} key={8}>
+            <div>
             <div className='container'>
             <div className='mapText'>
             <p>Redbridge engages in overt and covert social media surveillance but has no guideline or policy on how this should be conducted. Over 9,000 people in Redbridge currently receive PIP.</p></div>
               </div>
+              <div className='container'></div>
+          </div>
+              
           </Step>
-          <div className='container'></div>
       </Scrollama>
   
       </div>

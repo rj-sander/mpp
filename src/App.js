@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import './App.css';
 import {Intro1, Intro2, Definitions, Context, Solutions} from "./Text.js";
 import Map from "./Map.js";
@@ -11,13 +11,7 @@ import { Scrollama, Step } from 'react-scrollama';
 
 
 const App = () => {
-  const [currentStepIndex, setCurrentStepIndex] = useState(null);
 
-  // This callback fires when a Step hits the offset threshold. It receives the
-  // data prop of the step, which in this demo stores the index of the step.
-  const onStepEnter = ({ data }) => {
-    setCurrentStepIndex(data);
-  };
 
   return (
     <div className="App">
@@ -26,17 +20,15 @@ const App = () => {
       <header className="App-header">
         <h1>Invisible Disability</h1>
         <p>How government surveilance by local councils is restricting people's life online</p>
+        <p>Bex Sander</p>
         <a href='#intro'><button>Scroll Down</button></a>
       </header>
       <Intro1 />
       </div>
-      <div className='container'>
-      <LineChart />
-      <p>The amount of disabled poeple living in low incomes has double since 1995, and is increasing at a faster rate than non disabled people. According to the most recent available data, 26% of disabled people in England live at a low income.</p>
-      </div>
       <Intro2 />
-      <BarChart/>
+      <LineChart />
       <Definitions />
+      <BarChart/>
       <Phone />
       <Map />
       <Context />

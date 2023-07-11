@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import './App.css';
 import {Intro1, Intro2, Definitions, Context, Solutions} from "./Text.js";
 import Map from "./Map.js";
@@ -7,11 +7,7 @@ import {ReactComponent as Wheelchair} from "./illustrations/Wheelchair.svg";
 import {ReactComponent as Badge} from "./illustrations/Badge.svg";
 import {ReactComponent as Phone} from "./illustrations/Phone.svg";
 
-import { Scrollama, Step } from 'react-scrollama';
-
-
 const App = () => {
-
 
   return (
     <div className="App">

@@ -2,7 +2,7 @@ import React from "react";
 
 export const Intro1 = () => {
     return (
-      <div className="container">
+      <div className="container" style={{height: '100vh'}}>
       <p className='mapText'>
         <a name="intro">M</a> goes to an art group once a week. It’s a close-knit community of regular attendees who often see each other outside of workshops; the atmosphere is jovial and collaborative. Some attendees are photographers and will snap photos of people’s work and portraits of group members. But M catches one of them towards the end of the workshop as people pack up. “Please don’t post any photos of me on social media,” they ask. This a reasonable request and not unusual as people become more concerned with online privacy. But M isn’t worried about their privacy - they’re worried about their benefits.
         </p>
@@ -38,7 +38,7 @@ With guidance this vague, it is up to individual councils to set their own stand
 
 export const Context = () => {
     return (
-        <div className="container">
+        <div>
 <p>
 This kind of threat can stifle the ability of disabled people to participate in all activities, but in a fateful twist, it can also discourage public protest. The Greater Manchester Coalition for Disabled People, which organises around issues beyond disability, has seen police threaten members at protests with DWP investigations.  According to Rick Burgess, “Any protest we go to, every person that's there is representing maybe ten more who didn't want to come, not wanting to be at risk.”
 
@@ -51,7 +51,7 @@ The entire experience can be incredibly isolating. “When you're under the DWP,
 
 export const Solutions = () => {
     return (
-        <div className="container">
+        <div>
 <p>In the long term, organisations like Privacy International are campaigning for covert surveillance and more transparency over what councils are doing. For now, advice for people living under the threat of surveillance is unfortunately clear: privacy. “the good basic advice is to lock down your social media,” says Rick Burgess, “don't share your life with the public. It’s a human rights issue to me. People self-police their lives. They don't publicly enjoy themselves.”
 </p>
 </div>

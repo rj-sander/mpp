@@ -26,11 +26,13 @@ const App = () => {
       <Definitions />
       <BarChart/>
       <Phone />
+
       <Map />
+      <div className='container'>
       <Context />
       <Badge />
       <Solutions />
-
+      </div>
     </div>
 
   );

@@ -15,6 +15,8 @@ function Map() {
   
     return (
     <div >
+      <div className='container' style={{height: '20vh'}}>      <h2>Through Freedom of Information Requestions made by Privacy International, we can see the scope of local council surveillance and the absence of guardrails in London.</h2>
+</div>
          <Scrollama offset={0.25} onStepEnter={onStepEnter}>
          <div className="MapContainer" style={{ position: 'sticky', top: 100, zIndex: 1 }}>
          <Basemap currentMapIndex={currentMapIndex}/>
